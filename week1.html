@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cool survey</title>
+</head>
+<body>
+  <h1>Survey</h1>
+  <img src="meme.jpg" width=400px>
+  <br>
+  <div>
+    What is your name?
+    <input type="text" placeholder="Enter full name" name="full_name"> 
+  </div>
+  <br>
+  <div>
+    Are you a male or a female? <br>
+    <input type="radio" value="male" name="sex">Male
+    <input type="radio" value="female" name="sex">Female
+  </div>
+  <br>
+  <div>
+    What is your email?
+    <input type="text" placeholder="Enter your email" name="email"> 
+  </div>
+  <br>
+  <div>
+    What is your age range?
+  <input name="age_range" list="age_range" placeholder="Age range">
+    <datalist id="age_range">
+      <option value="1-10">
+      <option value="11-20">
+      <option value="21-30">
+      <option value="31-40">
+      <option value="41-50">
+      <option value="51-60">
+      <option value="61-70">
+      <option value="71-80">
+      <option value="81-90">
+      <option value="91-100">
+    </datalist>
+  </div>
+  <br>
+  <div>
+    What is the last tv show you watched?
+    <input type="text" placeholder="Enter your favorite tv show" name="show"> 
+  </div>
+  <br>
+  <div>
+    Is it better than "The office"?
+    <input name="better_or_not" list="better" placeholder="select">
+    <datalist id="better">
+      <option value="Yes">
+      <option value="Of course not">
+      <option value="I haven't watched The Office">
+    </datalist>
+  </div>
+  <br>
+  <div>
+      <input type="submit" value="Submit Info">
+  </div>
+</body>
+</html>
